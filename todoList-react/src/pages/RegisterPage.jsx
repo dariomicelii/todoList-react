@@ -34,7 +34,7 @@ function RegisterPage() {
   };
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 text-white">
       <h2>Registrati</h2>
       <form onSubmit={handleSubmit}>
         <input
