@@ -100,7 +100,7 @@ function HomePage() {
           />
         </div>
 
-        <h2 className="mt-5 mb-2 text-white">Elenco dei tuoi task:</h2>
+        <h2 className="mt-5 mb-2 text-white">Elenco dei tuoi impegni:</h2>
       </div>
 
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
