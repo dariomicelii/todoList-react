@@ -60,7 +60,8 @@ function HomePage() {
   return (
     <div className="container mt-5">
       <h1 className="mb-4 text-white">
-        Ciao {userName || "utente"}, benvenuto nella tua agenda virtuale!
+        Ciao <div className="d-inline text-primary">{userName || "utente"}</div>
+        , benvenuto nella tua agenda virtuale!
       </h1>
 
       <div className="mb-4">
